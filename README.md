@@ -107,7 +107,14 @@ Code-Reuse-Library/
 │   ├── rest-api/                      # REST API framework
 │   ├── web-app/                       # Web application framework
 │   ├── cli-tool/                      # CLI tool framework
-│   └── desktop-app/                   # Desktop application framework
+│   ├── desktop-app/                   # Desktop application framework
+│   └── qt/                            # Qt framework utilities
+│       ├── widgets/                   # Qt widget utilities
+│       ├── signals-slots/             # Signal-slot mechanisms
+│       ├── mvc/                       # Qt Model-View patterns
+│       ├── networking/                # Qt network utilities
+│       ├── database/                  # Qt database utilities
+│       └── gui-components/            # Reusable GUI components
 │
 ├── testing/                           # Testing related
 │   ├── unit-test-templates/           # Unit test templates
